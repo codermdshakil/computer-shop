@@ -1,0 +1,20 @@
+
+.item-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-frame{
+    width: 10%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.img-frame img{
+    width:100%;
+    border-radius: 50%;
+}
+
+.item-name{
+    margin-top: 12px;
+}

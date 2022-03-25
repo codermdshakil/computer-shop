@@ -1,10 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import Product from '../Product/Product';
+import SelectedProducts from '../SelectedProducts/SelectedProducts';
 import './AllProducts.css';
 
 
 const AllProducts = () => {
     const [products, setProducts] = useState([]);
+    const [cart, setCart] = useState([]);
+
+    console.log(cart);
+
+    const addToCart = (product) => {
+        const newCart = [...cart, product];
+        setCart(newCart);
+    }
 
     useEffect(()=> {
         fetch('allproducts.json')
@@ -20,7 +29,7 @@ const AllProducts = () => {
                     <div className="row">
                     <h3 className='semi-title text-center text-md-start'>Products Overview</h3>
                         {
-                            products.map(product => <Product  product={product} key={product.id}></Product>)
+                            products.map(product => <Product addToCart={addToCart} product={product} key={product.id}></Product>)
                         }
                     </div>
                 </div>
@@ -28,7 +37,10 @@ const AllProducts = () => {
                     <div className='show-products'>
                         <h4>Selectes Products</h4>
                         <div>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, pariatur.</p>
+                            {
+                                cart.map(item => <SelectedProducts item={item}></SelectedProducts>)
+                            }
+
                         </div>
                         <button className='chooseOne-btn'>Choose 1 for me</button><br/>
                         <button className='chooseAgain-btn'>Choose Again</button>
