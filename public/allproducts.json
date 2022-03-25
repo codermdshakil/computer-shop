@@ -1,0 +1,64 @@
+[
+    {
+      "id": 1,
+      "name": "Samsung Galaxy Book Pro",
+      "price": 1450,
+      "img": "https://www.startech.com.bd/image/cache/catalog/laptop/samsung/galaxy-book-pro/galaxy-book-pro-002-500x500.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Lenovo IdeaPad Slim",
+      "price": 1020,
+      "img": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/ip-slim/ip-slim-15-500x500.jpg"
+    },
+    {
+      "id": 3,
+      "name": "HP 15s-du3561TU",
+      "price": 1499,
+      "img": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/15s-fq2644tu/15s-fq2644tu-01-500x500.jpg"
+    },
+    {
+      "id": 4,
+      "name": "HP ENVY Convertible",
+      "price": 8031,
+      "img": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/envy-x360-convertible-15t-ed100/envy-x360-convertible-15t-ed100-01-500x500.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Asus Vivobook Go",
+      "price": 1600,
+      "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-go-14/vivobook-go-14-05-500x500.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Asus ExpertBook B1",
+      "price": 9030,
+      "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/expertbook-b1-b1400ceae/expertbook-b1-b1400ceae-01-500x500.jpg"
+    },
+    {
+      "id": 7,
+      "name": "ASUS VivoBook 15",
+      "price": 1000,
+      "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-15/vivobook-15-1-500x500.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Dell Vostro 14 3400",
+      "price": 1245,
+      "img": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/14-3400/vostro-14-3400-black-front-500x500.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Dell Inspiron 14 5410",
+      "price": 1393,
+      "img": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron-14-5410-2-in-1/inspiron-14-5410-2-in-1-05-500x500.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Apple MacBook Air",
+      "price": 2023,
+      "img": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-air/MGN73/macbook-mgn73Zp-a-500x500.jpg"
+    }
+    
+]
+  
