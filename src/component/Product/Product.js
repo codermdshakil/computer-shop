@@ -11,11 +11,13 @@ const Product = ({product}) => {
     return (
         <div className='col-lg-4 col-md-6 col-10 d-block m-auto m-md-0'>
             <div className='single-product border'>
-                <img src={img} alt="" />
-                <h5>{name}</h5>
-                <p>Price: ${price}</p>
+                <div className='product-info'>
+                    <img src={img} alt="" />
+                    <h5>{name}</h5>
+                    <p>Price: ${price}</p>
+                </div>
                 <div>
-                    <button>Add To Cart <FontAwesomeIcon icon={faCartShopping}/></button>
+                    <button className='button-design' >Add To Cart <FontAwesomeIcon icon={faCartShopping}/></button>
                 </div>
             </div>
         </div>
