@@ -20,13 +20,19 @@ const AllProducts = () => {
                     <div className="row">
                     <h3 className='semi-title text-center text-md-start'>Products Overview</h3>
                         {
-                            products.map(product => <Product product={product} key={product.id}></Product>)
+                            products.map(product => <Product  product={product} key={product.id}></Product>)
                         }
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-4 col-10 order-first order-md-last">
-                    <h2>Selected</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, nesciunt id vel in sunt natus accusamus! Beatae, asperiores quod illum mollitia harum porro excepturi ea dolorum. Cumque, atque sit. Quisquam tempore nihil dolor enim eveniet, dolorem incidunt corporis debitis veritatis illo sequi. Nobis voluptas dolorum sunt earum repudiandae hic commodi incidunt labore, ullam officia accusantium, voluptatem iure? Aliquam obcaecati veritatis nemo officiis deleniti laborum quos doloremque fugit tempore corrupti ullam unde nihil a eius modi minus doloribus provident, autem ex repellat voluptates. Corporis quae, perferendis molestiae hic tenetur exercitationem placeat debitis? Adipisci atque cum mollitia repudiandae deleniti illum eligendi ex.</p>
+                <div className="col-lg-3 col-md-4 col-10 d-block m-auto m-md-0 order-first order-md-last">
+                    <div className='show-products'>
+                        <h4>Selectes Products</h4>
+                        <div>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, pariatur.</p>
+                        </div>
+                        <button className='chooseOne-btn'>Choose 1 for me</button><br/>
+                        <button className='chooseAgain-btn'>Choose Again</button>
+                    </div>
                 </div>
             </div>
 
