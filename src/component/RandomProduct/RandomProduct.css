@@ -7,10 +7,11 @@
 }
 .random-Product p{
     margin-top: 14px;
+    font-size: 16px;
     margin-left: 10px;
 }
 .random-img-frame{
-    width: 12%;
+    width: 20%;
 }
 .random-img-frame img{
     width: 100%;

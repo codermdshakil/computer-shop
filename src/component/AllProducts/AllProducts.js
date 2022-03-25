@@ -71,7 +71,7 @@ const AllProducts = () => {
             <div className="row">
                 <div className="col-lg-9 col-md-8 col-12">
                     <div className="row">
-                    <h3 className='semi-title text-center text-md-start'>Products Overview</h3>
+                    <h3 className='semi-title text-center text-md-start'>All Products</h3>
                         {
                             products.map(product => <Product addToCart={addToCart} product={product} key={product.id}></Product>)
                         }

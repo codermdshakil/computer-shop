@@ -3,7 +3,7 @@
     padding-top: 25px;
     padding-bottom: 10px;
     width: 50%;
-    margin: 30px auto;
+    margin: auto;
     display: block;
     border-bottom: 2px solid #06c8d9;
 }
@@ -12,9 +12,10 @@
     font-weight: bold;
 }
 .semi-title {
-    font-size: 25px;
-    margin-bottom: 12px;
-    margin-top: 10px;
+    font-size: 23px;
+    padding: 10px 15px;
+    margin-top: 15px;
+    margin-bottom: 8px;
 }
 
 /* selected product style start here  */
@@ -46,7 +47,7 @@
 .show-products{
     position: sticky;
     top: 30px;
-    margin-top: 20px;
+    margin-top: 72px;
     background-color:#fff;
     padding: 20px;
     border-radius: 10px;
@@ -82,4 +83,24 @@
     background-color:#560bad;
     color: #fff;
 }
-   
+
+
+/* media queiry  */
+
+/* medius device  */
+@media screen and (max-width:1024px) {
+    .main-title{
+        width: 70%;
+    }
+    .selectes-title{
+        font-size: 18px;
+    }
+}
+
+/* small device  */
+@media screen and (max-width:576px) {
+    .main-title{
+        width: 80%;
+    }
+}
+
