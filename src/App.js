@@ -1,10 +1,16 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from 'react-bootstrap';
+import AllProducts from './component/AllProducts/AllProducts';
 
 function App() {
   return (
     <div>
+      <Container>
 
-      <h1>Hello world</h1>
+      <AllProducts></AllProducts>
+      
+      </Container>
       
     </div>
   );
