@@ -7,14 +7,20 @@ import './AllProducts.css';
 const AllProducts = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
-
-    console.log(cart);
-
+    
     const addToCart = (product) => {
+        const warnMassage = document.getElementById('warning');
+        warnMassage.style.display = 'none';
         const newCart = [...cart, product];
         setCart(newCart);
     }
 
+    const remoteItem = () => {
+        const warnMassage = document.getElementById('warning');
+        warnMassage.style.display = 'block';
+       const remoteItem = [];
+       setCart(remoteItem);
+    }
     useEffect(()=> {
         fetch('allproducts.json')
         .then(res => res.json())
@@ -35,15 +41,16 @@ const AllProducts = () => {
                 </div>
                 <div className="col-lg-3 col-md-4 col-10 d-block m-auto m-md-0 order-first order-md-last">
                     <div className='show-products'>
-                        <h4>Selectes Products</h4>
+                        <h4 className='selectes-title'>Selected Products</h4>
                         <div>
+                            <p id='warning'>Please Select Product!!</p>
                             {
-                                cart.map(item => <SelectedProducts item={item}></SelectedProducts>)
+                                cart.map(item => <SelectedProducts key={item.id} item={item}></SelectedProducts>)
                             }
 
                         </div>
                         <button className='chooseOne-btn'>Choose 1 for me</button><br/>
-                        <button className='chooseAgain-btn'>Choose Again</button>
+                        <button className='chooseAgain-btn' onClick={remoteItem}>Choose Again</button>
                     </div>
                 </div>
             </div>

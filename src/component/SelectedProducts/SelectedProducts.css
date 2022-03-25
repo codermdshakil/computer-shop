@@ -16,5 +16,8 @@
 }
 
 .item-name{
-    margin-top: 12px;
+    margin-top: 16px;
+}
+.delete-icon{
+    margin-top: -5px;
 }

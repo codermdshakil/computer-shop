@@ -15,7 +15,7 @@ const SelectedProducts = ({item}) => {
               <p className='item-name'>{name}</p>
             </div>
             <div>
-               <FontAwesomeIcon icon={faTrashCan}/>
+               <FontAwesomeIcon className='delete-icon' icon={faTrashCan}/>
             </div>
         </div>
     );

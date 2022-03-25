@@ -12,6 +12,20 @@
 }
 
 /* selected product style start here  */
+.selectes-title{
+    font-size: 20px;
+    border-bottom: 2px solid #560bad;
+    padding-bottom: 10px;
+}
+#warning{
+    margin:20px 0px;
+    padding: 5px;
+    font-size: 12px;
+    color: #ffff;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #38CC77;
+}
 .show-products{
     position: sticky;
     top: 30px;
