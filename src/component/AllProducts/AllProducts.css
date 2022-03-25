@@ -20,11 +20,21 @@
 #warning{
     margin:20px 0px;
     padding: 5px;
-    font-size: 12px;
+    font-size: 14px;
     color: #ffff;
     text-align: center;
     border-radius: 5px;
-    background-color: #38CC77;
+    background-color:#38CC77;
+}
+#win{
+    margin:20px 0px;
+    padding: 5px;
+    font-size: 14px;
+    color: #ffff;
+    display: none;
+    text-align: center;
+    border-radius: 5px;
+    background-color:#38CC77;
 }
 .show-products{
     position: sticky;

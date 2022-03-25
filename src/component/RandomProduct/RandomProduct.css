@@ -1,0 +1,27 @@
+
+.random-Product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.random-Product p{
+    margin-top: 14px;
+    margin-left: 10px;
+}
+.random-img-frame{
+    width: 12%;
+}
+.random-img-frame img{
+    width: 100%;
+    border-radius: 50%;
+}
+/* .win{
+    margin:20px 0px;
+    padding: 5px;
+    font-size: 14px;
+    color: #ffff;
+    text-align: center;
+    border-radius: 5px;
+    background-color:#38CC77;
+} */

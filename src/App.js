@@ -7,11 +7,8 @@ function App() {
   return (
     <div>
       <Container>
-
       <AllProducts></AllProducts>
-      
       </Container>
-      
     </div>
   );
 }
