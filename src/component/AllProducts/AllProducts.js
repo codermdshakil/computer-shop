@@ -31,7 +31,6 @@ const AllProducts = () => {
     const removeItem = () => {
         const remoteItem = [];
         setCart(remoteItem);
-
         // warning massage 
         document.getElementById('warning').style.display="block";
         // random product container 

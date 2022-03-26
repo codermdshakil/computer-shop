@@ -1,11 +1,15 @@
 
 .item-box{
     display: flex;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:#efefef;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 10px;
 }
 .img-frame{
-    width: 10%;
+    width: 12%;
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -16,6 +20,7 @@
 }
 
 .item-name{
+    font-size: 14px;
     margin-top: 16px;
 }
 .delete-icon{

@@ -3,14 +3,14 @@
     display: flex;
     padding: 5px;
     border-radius: 5px;
-    background-color:rgba(223, 218, 218, 0.63);
+    background-color:#efefef;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
 }
 .random-Product p{
     margin-top: 14px;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 10px;
 }
 .random-img-frame{
