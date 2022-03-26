@@ -24,4 +24,5 @@ const QuestionsAndAnswer = () => {
     );
 };
 
+
 export default QuestionsAndAnswer;

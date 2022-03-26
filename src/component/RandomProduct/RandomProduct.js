@@ -3,6 +3,8 @@ import './RandomProduct.css';
 
 
 const RandomProduct = ({product}) => {
+
+    // destructuring product  
     const {img, name} = product;
     return (
         <div >

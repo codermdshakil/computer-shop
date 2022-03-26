@@ -1,3 +1,6 @@
+/*--------------------------
+single product start here 
+---------------------------- */
 
 .single-product{
     border-radius: 10px;
@@ -15,6 +18,10 @@
 .product-info{
     padding: 20px;
 }
+
+/*----------------------------
+selected item button design 
+------------------------------ */
 .button-design {
     display: block;
     width: 100%;
@@ -29,7 +36,7 @@
     font-size: 19px;
     color: royalblue;
     z-index: 1;
-   }
+}
    
 .button-design:before {
     content: "";
@@ -44,7 +51,7 @@
     display: block;
     transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
     z-index: -1;
-   }
+}
    
 .button-design:after {
     content: "";
@@ -59,23 +66,23 @@
     display: block;
     transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
     z-index: -1;
-   }
+}
    
 .button-design:hover {
     color: #ffffff;
     border: none;
-   }
+}
    
 .button-design:hover:before {
     top: -35%;
     background-color: #39bda7;
     border: none;
     transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
-   }
+}
    
 .button-design:hover:after {
     top: -45%;
     border: none;
     background-color: #39bda7;
     transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
-   }
+}

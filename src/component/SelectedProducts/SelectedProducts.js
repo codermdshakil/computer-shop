@@ -5,6 +5,8 @@ import './SelectedProducts.css';
 
 
 const SelectedProducts = ({item}) => {
+
+    // destructuring item 
     const {name, img} = item;
      return (
         <div className='item-box'>
