@@ -78,7 +78,7 @@ const AllProducts = () => {
                         }
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-4 col-10 d-block m-auto m-md-0 order-first order-md-last">
+                <div className="col-lg-3 col-md-4 col-10 d-block m-auto m-md-0 ">
                     <div className='show-products border'>
                         <h4 className='selectes-title'>Selected Products</h4>
                         <div>
