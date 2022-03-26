@@ -5,7 +5,7 @@ import './QuestionsAndAnswer.css';
 const QuestionsAndAnswer = () => {
     return (
         <div className='row mb-5'>
-            <div className="question-container col-lg-10 col-md-11 col-11 d-block mt-4 m-auto">
+            <div className="question-container col-lg-10 col-md-11 col-10 d-block mt-4 m-auto">
               <h3>Questions and Answers</h3>
                 <div className="row">
                     <div className="col-lg-10 col-md-10 col-12 d-block m-auto m-md-0">
