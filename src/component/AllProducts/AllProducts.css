@@ -10,12 +10,13 @@
 .title{
     color: #1B98F5;
     font-weight: bold;
+    cursor: pointer;
 }
 .semi-title {
     font-size: 23px;
     padding: 10px 15px;
     margin-top: 15px;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 }
 
 /* selected product style start here  */
@@ -47,7 +48,7 @@
 .show-products{
     position: sticky;
     top: 30px;
-    margin-top: 72px;
+    margin-top: 67px;
     background-color:#fff;
     padding: 20px;
     border-radius: 10px;

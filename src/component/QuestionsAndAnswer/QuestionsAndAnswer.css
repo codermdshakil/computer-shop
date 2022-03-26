@@ -1,0 +1,23 @@
+.question-container{
+    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #cad5e265;
+    border-radius: 20px;
+    box-shadow: rgb(17 12 46 / 15%) 0px 48px 100px 0px;
+}
+.question-container h3{
+    padding-top: 30px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.question-design{
+    font-weight: bold;
+}
+
+.answer-design{
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}

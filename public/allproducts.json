@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "HP ENVY Convertible",
-      "price": 8031,
+      "price": 1031,
       "img": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/envy-x360-convertible-15t-ed100/envy-x360-convertible-15t-ed100-01-500x500.jpg"
     },
     {
@@ -27,7 +27,7 @@
     {
       "id": 5,
       "name": "Asus ExpertBook B1",
-      "price": 9030,
+      "price": 1700,
       "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/expertbook-b1-b1400ceae/expertbook-b1-b1400ceae-01-500x500.jpg"
     },
     {
@@ -51,7 +51,7 @@
     {
       "id": 9,
       "name": "Apple MacBook Air",
-      "price": 2023,
+      "price": 2099,
       "img": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-air/MGN73/macbook-mgn73Zp-a-500x500.jpg"
     },
     {

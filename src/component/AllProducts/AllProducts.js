@@ -26,8 +26,6 @@ const AllProducts = () => {
         document.getElementById('selected-item').style.display="block";
         // random product container 
         document.getElementById('random-container').style.display="none";
-
-
     }
 
     const removeItem = (product) => {
@@ -59,7 +57,10 @@ const AllProducts = () => {
         let index = getRandomProduct(0, randomValue);
         cart = cart[index];
         setRandomItem(cart);
+        
+        // selected products container 
         document.getElementById('selected-item').style.display="none";
+        // random product massage 
         document.getElementById('win').style.display="block";
         // random product container 
         document.getElementById('random-container').style.display="block";
