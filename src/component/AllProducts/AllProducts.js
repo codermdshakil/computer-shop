@@ -28,7 +28,7 @@ const AllProducts = () => {
         document.getElementById('random-container').style.display="none";
     }
 
-    const removeItem = (product) => {
+    const removeItem = () => {
         const remoteItem = [];
         setCart(remoteItem);
 
@@ -90,7 +90,7 @@ const AllProducts = () => {
                             </div>
                             <div id='random-container' >
                                 <p id='win'>this is for you!! 😊</p>
-                                <RandomProduct key={randomItem.id} product={randomItem}></RandomProduct>
+                                <RandomProduct id="random-item"  key={randomItem.id} product={randomItem}></RandomProduct>
                             </div>
                         </div>
                         <button className='chooseOne-btn' onClick={()=>randomProduct(cart)}>Choose 1 for me</button><br/>

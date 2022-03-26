@@ -45,6 +45,9 @@
     border-radius: 5px;
     background-color:#38CC77;
 }
+#random-container{
+    display: none;
+}
 .show-products{
     position: sticky;
     top: 30px;
