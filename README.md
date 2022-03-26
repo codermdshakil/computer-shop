@@ -1,6 +1,6 @@
 # Computer Shop
 
-My website link [Computer Shop](https://github.com/facebook/create-react-app).
+My website link [Computer Shop](https://computershopbymdshakilahmed.netlify.app/).
 
 ## Decreption about this website
 
