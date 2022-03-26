@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <Container>
-      <AllProducts></AllProducts>
+       <AllProducts></AllProducts>
        <QuestionsAndAnswer></QuestionsAndAnswer>
       </Container>
     </div>

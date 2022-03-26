@@ -19,13 +19,28 @@ const AllProducts = () => {
 
     const addToCart = (product) => {
         const newCart = [...cart, product];
-        setCart(newCart);
-        // warning massage 
+          setCart(newCart);
+
+        // error handle  
+        if(cart.length === 4){
+          const fourItem = [...cart];
+          setCart(fourItem);
+
+         // error massage 
+         document.getElementById('error-massage').style.display="block";
+         // selected product container 
+
+        }
+        else{
+            // warning massage 
         document.getElementById('warning').style.display="none";
         // selected product container 
         document.getElementById('selected-item').style.display="block";
         // random product container 
         document.getElementById('random-container').style.display="none";
+
+        }
+        
     }
 
     const removeItem = () => {
@@ -35,6 +50,8 @@ const AllProducts = () => {
         document.getElementById('warning').style.display="block";
         // random product container 
         document.getElementById('random-container').style.display="none";
+        // error massage 
+        document.getElementById('error-massage').style.display="none";
     }
 
 
@@ -63,6 +80,8 @@ const AllProducts = () => {
         document.getElementById('win').style.display="block";
         // random product container 
         document.getElementById('random-container').style.display="block";
+         // error massage 
+         document.getElementById('error-massage').style.display="none";
     }
    
     return (
@@ -81,7 +100,8 @@ const AllProducts = () => {
                     <div className='show-products border'>
                         <h4 className='selectes-title'>Selected Products</h4>
                         <div>
-                            <p id='warning'>Please Select Product!!</p>
+                            <p id='warning'>Please Select 4 Product!!</p>
+                            <p id='error-massage'>You Can't select more than 4 Products!!</p>
                             <div id='selected-item'>
                                 {
                                     cart.map(item => <SelectedProducts key={item.id} item={item}></SelectedProducts>)
